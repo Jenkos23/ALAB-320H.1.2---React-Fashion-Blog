@@ -1,4 +1,3 @@
-#Project Overview
 
 # Fashion Blog README
 
