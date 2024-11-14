@@ -1,0 +1,76 @@
+/* Styles for the entire HTML document */
+html {
+    border-left: 5px solid lightgray; /* Border only on the left side */
+}
+
+/* Overall body styling */
+body {
+    min-height: 100vh; /* At least 100% of the viewport height */
+    font-family: sans-serif; /* Use sans-serif fonts */
+    max-width: 1000px; /* Max width of the body */
+    margin: 0 auto; /* Center body on the page */
+}
+
+/* Padding for top and bottom for header, main, and footer */
+header, main, footer {
+    padding: 1rem 2rem; /* 1rem top and bottom, 2rem left and right */
+}
+
+/* Styling for the H1 element */
+h1 {
+    color: tomato; /* Set color to tomato */
+}
+
+/* Ensuring all images have a width of 100% */
+img {
+    width: 100%; /* Set images to 100% width */
+}
+
+/* Styles for navigation lists */
+nav ul {
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Spread items across the container */
+}
+
+/* Color for anchors in navigation */
+nav a {
+    color: lightgray; /* Set color for main navigation links */
+}
+
+/* Footer navigation link color */
+footer nav a {
+    color: tomato; /* Set color for footer navigation links */
+}
+
+/* Title styling for each article */
+article h2 {
+    font-size: 2em; /* Make titles larger */
+}
+
+/* Styling for any links with 'continues...' text */
+article a.continues {
+    display: block; /* Align to right, allowing display block */
+    text-align: right; /* Align to the right */
+    font-weight: bold; /* Bold text */
+    color: tomato; /* Tomato colored */
+}
+
+/* Margin and border for article elements */
+article {
+    margin-bottom: 4rem; /* Bottom margin of 4rem */
+    border-bottom: 1px solid lightgray; /* 1px solid border at the bottom */
+    padding-bottom: 2rem; /* Padding at the bottom of 2rem */
+}
+
+/* Style the first letter of paragraph in articles */
+article p::first-letter {
+    color: lightgray; /* Change color of first letter */
+    font-size: 2em; /* Make first letter larger for drop cap */
+}
+
+/* Style the copyright */
+footer p {
+    color: lightgray; /* Set copyright text to light gray */
+}
