@@ -61,5 +61,3 @@ Feel free to modify the content and styles to suit your project's needs. Add new
 - Image resources from [Pexels](https://www.pexels.com).
 
 ---
-
-This README file provides clear guidance for users or collaborators on the structure and usage of your fashion blog project. You can easily add or modify sections to include any additional instructions or information specific to your project's needs!
