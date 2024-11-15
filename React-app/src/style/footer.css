@@ -1,0 +1,24 @@
+/* Padding for top and bottom for header, main, and footer */
+ footer {
+    padding: 1rem 2rem; /* 1rem top and bottom, 2rem left and right */
+
+}
+
+/* Style the copyright */
+footer p {
+    color: lightgray; /* Set copyright text to light gray */
+}
+
+
+/* Footer navigation link color */
+footer nav a {
+    color: tomato; /* Set color for footer navigation links */
+}
+
+/* Styles for navigation lists */
+nav ul {
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Spread items across the container */
+}

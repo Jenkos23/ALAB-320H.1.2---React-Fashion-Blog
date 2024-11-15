@@ -1,0 +1,12 @@
+/* Styles for navigation lists */
+nav ul {
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Spread items across the container */
+}
+
+/* Color for anchors in navigation */
+nav a {
+    color: lightgray; /* Set color for main navigation links */
+}

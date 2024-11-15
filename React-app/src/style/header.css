@@ -1,0 +1,11 @@
+
+
+/* Styling for the H1 element */
+h1 {
+    color: tomato; /* Set color to tomato */
+}
+
+/* Padding for top and bottom for header, main, and footer */
+header {
+    padding: 1rem 2rem; /* 1rem top and bottom, 2rem left and right */
+}

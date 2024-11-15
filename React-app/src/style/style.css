@@ -1,0 +1,12 @@
+/* Styles for the entire HTML document */
+.App {
+    border-left: 5px solid lightgray; /* Border only on the left side */
+}
+
+/* Overall body styling */
+body {
+    min-height: 100vh; /* At least 100% of the viewport height */
+    font-family: sans-serif; /* Use sans-serif fonts */
+    max-width: 1000px; /* Max width of the body */
+    margin: 0 auto; /* Center body on the page */
+}
